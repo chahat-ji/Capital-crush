@@ -1,0 +1,404 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container1 {
+    background-image: url(./resources/landing\ page\ 1\ screen.png);
+    width: 100vw;
+    height: 100vh;
+    gap: 30px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.navbar {
+    /* padding: 0 20px; */
+    display: flex;
+    flex-direction: row;
+    /* width: 100vw; */
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.pages {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+
+    font-weight: bold;
+
+}
+
+.home {
+    color: #fab41c;
+}
+
+.container1 .navbar p {
+    font-size: 1em;
+}
+
+.container1 .navbar p:hover {
+    color: #fab41c;
+}
+
+
+.navbar img {
+    width: 12%;
+    height: auto;
+    margin: 0 4vw;
+}
+
+.content1 {
+    /* background-color: #F67408; */
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.content1 h1 {
+    font-weight: 900;
+    font-size: 3.5vw;
+    letter-spacing: 0.03em;
+    text-align: center
+}
+
+.content1 span {
+    background: linear-gradient(180deg, #FAF51C, #F67408);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content1 span,
+h1,
+h3 {
+    margin: 2vh;
+}
+
+.content1 h3 {
+    font-size: 1.6vw;
+    font-weight: 400;
+    opacity: 75%;
+    letter-spacing: 0.12em;
+}
+
+.container1 .ctc {
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    /* padding-bottom: 10vw; */
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container1 .ctc img {
+    width: 25%;
+    height: auto;
+}
+
+.container2 {
+    background-color: #100B26;
+    background-image: url(./resources/bg2.png);
+}
+
+.container2 .content {
+    color: rgb(255, 255, 255);
+    padding: 8vh 10vw 2vh 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: 0.03em;
+    text-align: center
+}
+
+.container2 .content span {
+    background: linear-gradient(180deg, #FAF51C, #F67408);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container2 .content p {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 75%;
+    margin: 0.5vh 15%;
+}
+
+.container2 .cardContainer {
+    margin: 2%;
+}
+
+.container2 .cardContainer .card {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    align-items: center;
+    margin: 2% 10% 2% 10%;
+}
+
+.container2 .cardContainer .card img {
+    width: 22%;
+    height: auto;
+}
+
+.container2 .cardContainer .card .arrow {
+    width: 5%;
+    height: auto;
+}
+
+.container2 .cardContainer .dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 1vw;
+}
+
+
+.container2 .cardContainer .dot1 {
+    background-color: rgb(243, 195, 2);
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 5px;
+}
+
+.container2 .cardContainer .dot2 {
+    background-color: rgb(255, 255, 255);
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 5px;
+}
+
+.container2 .ctc {
+    padding: 30px 20px 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 .ctc img {
+    width: 15%;
+    height: auto;
+}
+
+.container3 {
+    display: flex;
+    background-color: #100B26;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+
+.container3 .content {
+    margin: 4% 2% 0 2%;
+    padding: 2% 20%;
+}
+
+.container3 .content .title {
+    font-size: 3em;
+    font-weight: 750;
+    text-align: center;
+}
+
+
+.container3 .content .description {
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.container3 .imagecontainer {
+    display: flex;
+    align-items: center;
+    margin: 5vh auto;
+    gap: 5vw;
+}
+
+.container3 .imagecontainer .hero {
+    width: 50vw;
+    height: auto;
+}
+
+.container3 .imagecontainer .left,
+.right {
+    width: 4.5vw;
+    height: auto;
+}
+
+.container3 .dotContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 8vh;
+}
+
+
+.container3 .dotContainer .dot {
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0.5vw;
+}
+
+.container3 .dotContainer :first-child {
+    background-color: rgb(243, 195, 2);
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0.5vw;
+}
+
+.container4 {
+    background-color: #100B26;
+    display: flex;
+    align-items: center;
+
+}
+
+.container4 .hero {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 4vh 0;
+}
+
+.container5 {
+    background-color: #100B26;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.container5 img {
+    width: 75vw;
+    height: auto;
+    padding: 10vw 0 6vw 0;
+}
+
+.container5 .content {
+    position: absolute;
+    top: 20vw;
+    left: 17vw;
+    right: 10vw;
+    width: 40vw;
+}
+
+.container5 .content .title {
+    font-size: 3.2vw;
+    font-weight: 750;
+}
+
+
+.container5 .content .description {
+    font-size: 1.2vw;
+    font-weight: 200;
+    opacity: 75%;
+    letter-spacing: 0.05em;
+    padding: 2vh 2.3vw 2vh 0;
+}
+
+.container5 .content .ctc {
+    width: 13vw;
+    height: auto;
+    padding: 2vh 0 1vh 0;
+}
+
+.faq {
+    background-color: #100B26;
+    color: #ffffff;
+}
+
+.faq .title {
+    font-size: 3.5vw;
+    font-weight: 750;
+    padding: 8vh 10vw 3vh 10vw;
+}
+
+.faq .questionCon {
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+}
+
+.faq .questionCon .question {
+    margin: 0 10vw;
+    border: #100B26 solid 2px;
+    background-color: #07021e;
+}
+
+.faq .questionCon .question:hover .description {
+    display: block;
+}
+
+.faq .questionCon .question .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.faq .questionCon .question .title p {
+    margin: 1.2vw;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+
+.faq .questionCon .question .title img {
+    margin: 1.2vw 2vw;
+    width: 1.8vw;
+    height: 1.1vw;
+}
+
+
+.faq .questionCon .question .title img {
+    margin: 1.2vw 2vw;
+    width: 1.6vw;
+    height: 1vw;
+}
+
+.faq .questionCon .question .description {
+    display: none;
+    margin: 0 5vw 1.5vw 1.2vw;
+    font-size: 1vw;
+    font-weight: 200;
+    line-height: 2em;
+    text-align: justify;
+}
+
+footer img {
+    width: 100vw;
+    height: auto;
+}
